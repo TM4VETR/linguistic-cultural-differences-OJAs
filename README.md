@@ -67,6 +67,15 @@ After completing this steps, modify `config.json` with the according country cod
 ## Structure
 ```
 .
+├── analyzer
+│   └── analyzer.py
+│   └── examine_results.py
+│   └── run_pipeline.py
+│   └── util.py
+├── crawler
+│   └── careerjet_crawler.py
+│   └── country_config.py
+│   └── data_helper.py
 ├── plots
 │   ├── AUT
 │   ├── DE
@@ -88,15 +97,6 @@ After completing this steps, modify `config.json` with the according country cod
 │   ├── UK
 │   └── US
 │   └── wiki_lingua
-└── analyzer
-│   └── analyzer.py
-│   └── examine_results.py
-│   └── run_pipeline.py
-│   └── util.py
-└── crawler
-│   └── careerjet_crawler.py
-│   └── country_config.py
-│   └── data_helper.py
 ├── config.json
 ├── install-spacy.sh
 ├── README.md
