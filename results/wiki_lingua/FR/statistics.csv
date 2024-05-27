@@ -1,0 +1,11 @@
+data,num_samples,statistic,value
+doclen-space_tokenized,10000,mean,533.135
+doclen-space_tokenized,10000,std,326.8444
+doclen-space_tokenized,10000,median,478.0
+doclen-bert_tokenized,10000,mean,727.8026
+doclen-bert_tokenized,10000,std,446.489
+doclen-bert_tokenized,10000,median,654.0
+space_tokenized,10000,STTR,0.368
+ngrams,10000,ngram_vendiscore,311.8114
+BERT_embeddings,10000,embedding_vendiscore,1.5089
+lemmas,10000,STTR,0.32

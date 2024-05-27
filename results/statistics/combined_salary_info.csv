@@ -1,0 +1,15 @@
+country,type,percentage,mean_salary_paragraphs
+AUT,text,78.86,1.0482
+DE,text,59.21,0.9447
+ES,text,55.22,0.6183
+FR,text,60.56,0.866
+IT,text,29.24,0.3398
+UK,text,68.55,1.0696
+US,text,62.67,1.0673
+AUT,structured,43.27,
+DE,structured,20.59,
+ES,structured,20.58,
+FR,structured,38.41,
+IT,structured,13.34,
+UK,structured,57.28,
+US,structured,42.12,

@@ -1,0 +1,9 @@
+{
+  "US": "en_core_web_sm",
+  "UK": "en_core_web_sm",
+  "DE": "de_core_news_sm",
+  "AUT": "de_core_news_sm",
+  "IT": "it_core_news_sm",
+  "ES": "es_core_news_sm",
+  "FR": "fr_core_news_sm"
+}

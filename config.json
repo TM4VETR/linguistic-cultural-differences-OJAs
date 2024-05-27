@@ -1,0 +1,7 @@
+{
+  "db_path": "/home/admin-fn-dl-02/dev/lg/careerjet-data/merged_final.db",
+  "country": "de",
+  "save_results": false,
+  "print_mode": true,
+  "num_samples": 10
+}
