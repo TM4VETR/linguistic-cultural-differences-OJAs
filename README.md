@@ -18,7 +18,7 @@ The following aspects are analyzed in order to compare job ads from different co
 All analysis except the latter four are executed with the [huggingface Wikilingua dataset](https://huggingface.co/datasets/wiki_lingua) in the examined languages (German, English, Spanish, French, Italian) for comparison.
 
 ## Content
-* `plots/`: plots generated from the pipeline results, each country has a subfolgder, e.g. `plots/US/`
+* `plots/`: plots generated from the pipeline results, each country has a subfolder, e.g. `plots/US/`
 * `results/`: analysis results will be saved to a country-specific subfolder, e.g. `results/US/`
 * `analyzer/`: contains the python scripts used for analysis, including the main script `run_pipeline.py`
 * `crawler/`: contains the python scripts used to crawl the CareerJet data, including the main script `careerjet_crawler.py`
@@ -47,7 +47,6 @@ First modify the parameters in `config.json` as needed:
   "db_path": "merged_final.db",
   "country": "us",
   "save_results": false,
-  "plot_results": false,
   "print_mode": true,
   "num_samples": 10000
 }
@@ -55,7 +54,6 @@ First modify the parameters in `config.json` as needed:
 * `db_path`: path to SQLite database containing table `job_listings`, input "wiki_lingua" to run with comparison data
 * `country`: origin country of data to be analyzed, choose from: `["aut", "de", "es", "fr", "it", "uk", "us"]`
 * `save_results`: if true, results will be saved to the respective country folder in `results/`
-* `plot_results`: if true, some results will be plotted and saved to the respective country folder in `plots/`
 * `print_mode`: if true, results will be printed to console while the pipeline is running
 * `num_samples`: Specify the number of samples to be used for analysis, e.g. `num_samples=10` will run the pipeline using only the first ten samples available for the given country. Choose zero or a negative number if you want to run the pipeline with the full available data.\
 \
