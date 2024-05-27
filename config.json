@@ -3,5 +3,5 @@
   "country": "de",
   "save_results": false,
   "print_mode": true,
-  "num_samples": 10
+  "num_samples": -1
 }
