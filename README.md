@@ -1,4 +1,4 @@
-# stea-language-comparison-pipeline
+# linguistic-cultural-differences-OJAs
 This repository contains a pipeline for comparing online job advertisements obtained from [CareerJet](https://www.careerjet.com/) from seven different countries (Germany, Austria, United Kingdom, United States, Spain, France, Italy) and five languages (German, English, Spanish, French, Italian).
 
 ## Description
